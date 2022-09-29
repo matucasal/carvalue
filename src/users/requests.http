@@ -3,7 +3,7 @@
 POST http://localhost:3000/auth/signup
 content-type: application/json
 
-{ "email" : "asda@qwq.com", "password" : "test" }
+{ "email" : "mati@mati.com", "password" : "test" }
 
 
 ### Fiind a partiuclar user with given ID
