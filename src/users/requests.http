@@ -4,3 +4,24 @@ POST http://localhost:3000/auth/signup
 content-type: application/json
 
 { "email" : "asda@qwq.com", "password" : "test" }
+
+
+### Fiind a partiuclar user with given ID
+GET http://localhost:3000/auth/1
+
+
+###Find all users with given email
+GET http://localhost:3000/auth?email=asda@qwq.com
+
+
+### Delete user with id
+DELETE http://localhost:3000/auth/1
+
+
+### Update user
+PATCH http://localhost:3000/auth/2
+content-type: application/json
+
+{
+	"password" :"updated-password"
+}
