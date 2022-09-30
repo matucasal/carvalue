@@ -1,10 +1,3 @@
-### Create a new user
-
-POST http://localhost:3000/auth/signup
-content-type: application/json
-
-{ "email" : "mati@mati.com", "password" : "test" }
-
 
 ### Fiind a partiuclar user with given ID
 GET http://localhost:3000/auth/2
@@ -25,3 +18,31 @@ content-type: application/json
 {
 	"password" :"updated-password"
 }
+
+
+
+### Create a new user
+
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{ "email" : "mati2@mati2.com", "password" : "test" }
+
+
+
+
+### Sigin a new user
+
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{ "email" : "mati2@mati2.com", "password" : "test" }
+
+
+### Get recent sing in
+GET http://localhost:3000/auth/whoami
+
+
+### Sigin a new user
+
+POST http://localhost:3000/auth/signout
