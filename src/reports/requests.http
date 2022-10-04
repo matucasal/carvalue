@@ -11,13 +11,13 @@ content-type: application/json
 	"mileage": 100000,
 	"lng": 0,
 	"lat": 0,
-	"price": 50000
+	"price": 1000
 }
 
 
 ### Approve report
 
-PATCH http://localhost:3000/reports/8
+PATCH http://localhost:3000/reports/13
 content-type: application/json
 
 {
